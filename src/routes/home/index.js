@@ -6,7 +6,7 @@ const Home = () => (
     <div class={style.breath}>
       <span class={style.breatheIn}>inspire</span>
       <span class={style.hold}>segure</span>
-      <span class={style.breatheOut}>respire</span>
+      <span class={style.breatheOut}>expire</span>
     </div>
   </div>
 );

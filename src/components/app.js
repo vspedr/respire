@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
 import { Router } from 'preact-router';
+import ReactGA from 'react-ga';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
@@ -12,6 +13,11 @@ export default class App extends Component {
   handleRoute = (e) => {
     this.currentUrl = e.url;
   };
+
+  componentDidMount() {
+    ReactGA.initialize('UA-108534391-3');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
 
   render() {
     return (
