@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 html,
 body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #fafafa;
-  font-family: 'Helvetica Neue', arial, sans-serif;
-  font-weight: 400;
-  color: #444;
+  color: #7392b7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
