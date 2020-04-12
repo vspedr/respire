@@ -1,7 +1,6 @@
 import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 import ReactGA from 'react-ga';
-import Helmet from 'preact-helmet';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
@@ -22,40 +21,11 @@ export default class App extends Component {
 
   render() {
     return (
-      <>
-        <Helmet
-          htmlAttributes={{ lang: 'pt-BR' }}
-          title="respire"
-          meta={[
-            {
-              name: 'description',
-              content: 'Exercício de respiração para controle da ansiedade',
-            },
-            {
-              name: 'og:description',
-              content: 'Exercício de respiração para controle da ansiedade',
-            },
-            {
-              name: 'og:image',
-              content: '/assets/images/web_hi_res_512.png',
-            },
-            {
-              name: 'twitter:description',
-              content: 'Exercício de respiração para controle da ansiedade',
-            },
-            {
-              name: 'keywords',
-              content:
-                'respiração, exercício, tranquilidade, relax, meditação, calma, controle, saúde',
-            },
-          ]}
-        />
-        <div id="app">
-          <Router onChange={this.handleRoute}>
-            <Home path="/" />
-          </Router>
-        </div>
-      </>
+      <div id="app">
+        <Router onChange={this.handleRoute}>
+          <Home path="/" />
+        </Router>
+      </div>
     );
   }
 }

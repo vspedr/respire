@@ -31,8 +31,7 @@
   },
   "dependencies": {
     "preact": "^10.3.2",
-    "preact-helmet": "^4.0.0-alpha-3",
-    "preact-render-to-string": "^5.1.4",
+    "preact-render-to-string": "^5.1.6",
     "preact-router": "^3.2.1",
     "react-ga": "^2.7.0"
   },

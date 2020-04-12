@@ -3,7 +3,7 @@
   "short_name": "respire",
   "theme_color": "#d8e1e9",
   "background_color": "#7392b7",
-  "display": "fullscreen",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/",
   "icons": [
