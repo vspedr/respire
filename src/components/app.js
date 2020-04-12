@@ -48,7 +48,6 @@ export default class App extends Component {
               content:
                 'respiração, exercício, tranquilidade, relax, meditação, calma, controle, saúde',
             },
-            { name: 'viewport', content: 'user-scalable=no' },
           ]}
         />
         <div id="app">
