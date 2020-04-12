@@ -1,21 +1,32 @@
 {
   "name": "respire",
   "short_name": "respire",
-  "start_url": "/",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#fff",
   "theme_color": "#d8e1e9",
+  "background_color": "#7392b7",
+  "display": "fullscreen",
+  "Scope": "/",
+  "start_url": "/",
   "icons": [
     {
-      "src": "/assets/icons/android-chrome-192x192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "/assets/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
     },
     {
-      "src": "/assets/icons/android-chrome-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "/assets/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     }
-  ]
+  ],
+  "splash_pages": null
 }
