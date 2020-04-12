@@ -52,10 +52,10 @@
   5% {
     opacity: 1;
   }
-  40% {
+  35% {
     opacity: 1;
   }
-  45% {
+  40% {
     opacity: 0;
   }
 }
@@ -76,10 +76,10 @@
 }
 
 @keyframes breatheOut {
-  55% {
+  60% {
     opacity: 0;
   }
-  60% {
+  65% {
     opacity: 1;
   }
   95% {

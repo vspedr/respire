@@ -18,6 +18,7 @@ body {
   -o-user-select: none;
   user-select: none;
   overscroll-behavior-y: contain;
+  overflow: hidden;
 }
 
 * {
